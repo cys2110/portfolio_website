@@ -1,4 +1,8 @@
 <script setup>
+import { useDisplay } from 'vuetify';
+
+const { xs } = useDisplay()
+
 const education = [
     {
         institution: 'New York State Bar Association',
@@ -74,6 +78,9 @@ const experience = [
     <v-container>
         <v-row>
             <div class="about">
+                <div class="headshot" v-if="xs">
+                    <v-img src="../assets/headshot.jpeg" alt="Claire Sheridan" class="rounded-circle" ></v-img>
+                </div>
                 <h1>About Me</h1>
                 <p class="my-2 text-justify">I am a full stack software engineer who focuses on building user-friendly and accessible products. I utilize the skills I learned as an attorney to communicate effectively with clients and stakeholders to ensure that they receive the product that they are looking for. As we enter the Web 3.0 era, I look to work on projects which aim to effectively incorporate the advances we've made in technology in a socially responsible manner.</p>
 
