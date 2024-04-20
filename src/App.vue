@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Home />
     </v-main>
 
     <AppFooter />
@@ -9,5 +9,6 @@
 </template>
 
 <script setup>
-  //
+import AppFooter from './components/AppFooter'
+import Home from './components/Home.vue';
 </script>
