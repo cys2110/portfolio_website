@@ -94,9 +94,9 @@ const experience = [
         <v-row>
             <h2 class="my-3">Education and Licenses</h2>
             <v-row>
-                <v-col cols="10" sm="12" v-for="(item, i) in education" :key="i">
-                    <v-card color="deep-purple-lighten-3">
-                        <v-card-title>{{ item.institution}}</v-card-title>
+                <v-col cols="12" md="6" lg="3" v-for="(item, i) in education" :key="i">
+                    <v-card class="h-100" color="deep-purple-lighten-3">
+                        <v-card-title style="text-wrap: wrap;">{{ item.institution}}</v-card-title>
                         <v-card-subtitle class="d-flex flex-wrap justify-space-between">
                             <span style="text-wrap: wrap;">{{ item.degree }}</span>
                             <span>{{ item.dates }}</span>
@@ -111,7 +111,7 @@ const experience = [
         <v-row>
             <h2 class="my-3">Experiences</h2>
             <v-row>
-                <v-col cols="10" sm="12" v-for="(item, i) in experience" :key="i">
+                <v-col cols="12" v-for="(item, i) in experience" :key="i">
                     <v-card color="deep-purple-lighten-3">
                         <v-card-title>{{ item.company }}</v-card-title>
                         <v-card-subtitle class="d-flex flex-wrap justify-space-between">
