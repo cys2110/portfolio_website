@@ -1,6 +1,6 @@
 <script setup>
 const languages = ['ES6 Javascript', 'Python', 'SQL', 'HTML', 'CSS']
-const frameworks = ['React', 'Vue.js', 'Vuetify', 'Django', 'Sequelize', 'Express.js', 'Node.js', 'Axios', 'JWT']
+const frameworks = ['React', 'Material UI', 'Tailwind CSS', 'Vue.js', 'Vuetify', 'Django', 'Sequelize', 'Express.js', 'Node.js', 'Axios', 'JWT']
 const tools = ['MongoDB', 'PostgreSQL', 'Amazon RDS', 'JSON API', 'Surge', 'Netlify', 'Github', 'Figma', 'Trello']
 </script>
 
