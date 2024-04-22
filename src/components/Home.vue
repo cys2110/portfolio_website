@@ -53,7 +53,7 @@ const drawer = ref(null)
                 <div class="d-flex justify-space-evenly mt-n16">
                     <div><a class="icon" href="mailto:csheridan2110@gmail.com"><v-icon icon="fas fa-envelope"></v-icon></a></div>
                     <div><a class="icon" href="https://github.com/cys2110" target="_blank"><v-icon icon="fab fa-github"></v-icon></a></div>
-                    <div><a class="icon" href="www.linkedin.com/in/claire-y-sheridan" target="_blank"><v-icon icon="fab fa-linkedin"></v-icon></a></div>
+                    <div><a class="icon" href="https://www.linkedin.com/in/claire-y-sheridan" target="_blank"><v-icon icon="fab fa-linkedin"></v-icon></a></div>
                 </div>
             </v-col>
             <v-col cols="11" sm="9">

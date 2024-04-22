@@ -14,21 +14,21 @@ const { xs, sm } = useDisplay()
                 <v-hover v-slot="{isHovering, props}">
                     <v-card v-bind="props" color="deep-purple-lighten-4" class="rounded-lg d-flex flex-column justify-space-evenly align-center" variant="outlined">
                         <v-img :width="500"target="_blank" src="../assets/TH.png" class="my-3 mx-2"></v-img>
-                        <v-card-title  class="text-center my-2">TennisHistory (v1)</v-card-title>
+                        <v-card-title  class="text-center my-2">TennisHistory</v-card-title>
                         <v-card-text class="text-center">
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-js">JavaScript</v-chip>
-                            <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-python">Python</v-chip>
+                            <v-chip class="ma-1 text-center" elevated>Sequelize</v-chip>
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-vuejs">Vue</v-chip>
-                            <v-chip class="ma-1 text-center" elevated>Django</v-chip>
-                            <v-chip class="ma-1 text-center" elevated>JWT</v-chip>
+                            <v-chip class="ma-1 text-center" elevated>Express</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-node">Node</v-chip>
                         </v-card-text>
                         <v-overlay :model-value="isHovering" contained class="align-center justify-center" scrim="#EDE7F6">
                             <v-card color="deep-purple-lighten-4" width="60%" class="mx-auto">
                                 <v-card-text>
-                                    <p class="text-justify">This is a previous version of the above TennisHistory application built with Django instead of Sequelize.</p>
+                                    <p class="text-justify">This app is a clone of parts of the <a class="text-deep-purple-accent-2" style="text-decoration: none;" href="https://www.atptour.com/en" target="_blank">ATP</a> website, allowing users to discover information about current and past tournaments and players.</p>
                                 </v-card-text>
                                 <v-card-actions class="justify-center">
-                                    <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/TennisHistory/tree/django" prepend-icon="fab fa-github">Github</v-chip>
+                                    <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/TennisHistory" prepend-icon="fab fa-github">Github</v-chip>
                                 </v-card-actions>
                             </v-card>
                         </v-overlay>
@@ -52,7 +52,7 @@ const { xs, sm } = useDisplay()
                                 </v-card-text>
                                 <v-card-actions class="justify-center">
                                     <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/DictionaryPlus" prepend-icon="fab fa-github">Github</v-chip>
-                                    <v-chip class="mx-1" variant="elevated" color="deep-purple-accent-2" href="https://main--scrabblehelper.netlify.app/" prepend-icon="fas fa-square-arrow-up-right">Website</v-chip>
+                                    <v-chip class="mx-1" variant="elevated" color="deep-purple-accent-2" href="https://scrabblehelper.netlify.app/" prepend-icon="fas fa-square-arrow-up-right">Website</v-chip>
                                 </v-card-actions>
                             </v-card>
                         </v-overlay>
@@ -114,21 +114,21 @@ const { xs, sm } = useDisplay()
                 <v-hover v-slot="{isHovering, props}">
                     <v-card v-bind="props" color="deep-purple-lighten-4" class="rounded-lg d-flex flex-column justify-space-evenly align-center" variant="outlined">
                         <v-img :width="500"target="_blank" src="../assets/TH.png" class="my-3 mx-2"></v-img>
-                        <v-card-title  class="text-center my-2">TennisHistory</v-card-title>
+                        <v-card-title  class="text-center my-2">TennisHistory (v1)</v-card-title>
                         <v-card-text class="text-center">
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-js">JavaScript</v-chip>
-                            <v-chip class="ma-1 text-center" elevated>Sequelize</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-python">Python</v-chip>
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-vuejs">Vue</v-chip>
-                            <v-chip class="ma-1 text-center" elevated>Express</v-chip>
-                            <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-node">Node</v-chip>
+                            <v-chip class="ma-1 text-center" elevated>Django</v-chip>
+                            <v-chip class="ma-1 text-center" elevated>JWT</v-chip>
                         </v-card-text>
                         <v-overlay :model-value="isHovering" contained class="align-center justify-center" scrim="#EDE7F6">
                             <v-card color="deep-purple-lighten-4" width="60%" class="mx-auto">
                                 <v-card-text>
-                                    <p class="text-justify">This app is a clone of parts of the <a class="text-deep-purple-accent-2" style="text-decoration: none;" href="https://www.atptour.com/en" target="_blank">ATP</a> website, allowing users to discover information about current and past tournaments and players.</p>
+                                    <p class="text-justify">This is a previous version of the above TennisHistory application built with Django instead of Sequelize.</p>
                                 </v-card-text>
                                 <v-card-actions class="justify-center">
-                                    <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/TennisHistory" prepend-icon="fab fa-github">Github</v-chip>
+                                    <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/TennisHistory/tree/django" prepend-icon="fab fa-github">Github</v-chip>
                                 </v-card-actions>
                             </v-card>
                         </v-overlay>
