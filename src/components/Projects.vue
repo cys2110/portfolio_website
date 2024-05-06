@@ -29,6 +29,7 @@ const { xs, sm } = useDisplay()
                                 </v-card-text>
                                 <v-card-actions class="justify-center">
                                     <v-chip variant="elevated" color="deep-purple-accent-2" href="https://github.com/cys2110/TennisHistory" prepend-icon="fab fa-github">Github</v-chip>
+                                    <v-chip class="mx-1" variant="elevated" color="deep-purple-accent-2" href="https://tennis-history.netlify.app/" prepend-icon="fas fa-square-arrow-up-right">Website</v-chip>
                                 </v-card-actions>
                             </v-card>
                         </v-overlay>

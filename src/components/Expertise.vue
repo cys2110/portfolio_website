@@ -8,19 +8,19 @@ const tools = ['MongoDB', 'PostgreSQL', 'Amazon RDS', 'JSON API', 'Surge', 'Netl
     <h1>Expertise</h1>
     <v-container>
         <v-row>
-            <v-col>
+            <v-col cols="6">
                 <v-toolbar class="rounded-t-lg" color="deep-purple-accent-4">
                     <v-toolbar-title  class="text-subtitle-1">Programming Languages</v-toolbar-title>
                 </v-toolbar>
                 <v-list :items="languages" class="rounded-b-lg" bg-color="deep-purple-lighten-4"></v-list>
             </v-col>
-            <v-col>
+            <v-col cols="6">
                 <v-toolbar class="rounded-t-lg"  color="deep-purple-accent-4">
                     <v-toolbar-title class="text-subtitle-1">Libraries & Frameworks</v-toolbar-title>
                 </v-toolbar>
                 <v-list :items="frameworks" class="rounded-b-lg" bg-color="deep-purple-lighten-4"></v-list>
             </v-col>
-            <v-col>
+            <v-col cols="6">
                 <v-toolbar class="rounded-t-lg"  color="deep-purple-accent-4">
                     <v-toolbar-title  class="text-subtitle-1">Tools & Platforms</v-toolbar-title>
                 </v-toolbar>
