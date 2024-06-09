@@ -16,9 +16,11 @@ const { xs, sm } = useDisplay()
                         <v-img :width="500"target="_blank" src="../assets/TH.png" class="my-3 mx-2"></v-img>
                         <v-card-title  class="text-center my-2">TennisHistory</v-card-title>
                         <v-card-text class="text-center">
-                            <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-js">JavaScript</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="mdi:mdi-language-typescript">TypeScript</v-chip>
                             <v-chip class="ma-1 text-center" elevated>Sequelize</v-chip>
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-vuejs">Vue</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="mdi:mdi-vuetify">Vuetify</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="mdi:mdi-tailwind">Tailwind</v-chip>
                             <v-chip class="ma-1 text-center" elevated>Express</v-chip>
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-node">Node</v-chip>
                         </v-card-text>
@@ -43,7 +45,7 @@ const { xs, sm } = useDisplay()
                         <v-card-title  class="text-center my-2">DPS</v-card-title>
                         <v-card-text class="text-center">
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-js">JavaScript</v-chip>
-                            <v-chip class="ma-1 text-center" elevated prepend-icon="mdi:mid-tailwind">Tailwind</v-chip>
+                            <v-chip class="ma-1 text-center" elevated prepend-icon="mdi:mdi-tailwind">Tailwind</v-chip>
                             <v-chip class="ma-1 text-center" elevated prepend-icon="fab fa-vuejs">Vue</v-chip>
                         </v-card-text>
                         <v-overlay :model-value="isHovering" contained class="align-center justify-center" scrim="#EDE7F6">
