@@ -1,7 +1,7 @@
 <script setup>
-const languages = ['Javascript', 'TypeScript', 'Python', 'SQL', 'HTML', 'CSS']
+const languages = ['Javascript', 'TypeScript', 'GraphQL', 'Python', 'SQL', 'HTML', 'CSS']
 const frameworks = ['React', 'Material UI', 'Tailwind CSS', 'Vue.js', 'Vuetify', 'Django', 'Sequelize', 'Express.js', 'Node.js', 'Axios', 'JWT']
-const tools = ['MongoDB', 'PostgreSQL', 'Amazon RDS', 'JSON API', 'Surge', 'Netlify', 'Github', 'Figma', 'Trello']
+const tools = ['MongoDB', 'PostgreSQL', 'Amazon RDS', 'JSON API', 'Surge', 'Netlify', 'Github', 'Figma', 'Trello', 'Neo4j']
 </script>
 
 <template>
